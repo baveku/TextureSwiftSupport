@@ -285,7 +285,7 @@ public class StyledEdgeNode<ContentNode: ASDisplayNode>: NamedDisplayNodeBase {
 
 }
 
-extension TextureSwiftSupport.ShapeDisplaying {
+public extension ShapeDisplaying {
 
   fileprivate static func roundedCornerInversed(radius: CGFloat) -> Self {
     return self.init { bounds in
